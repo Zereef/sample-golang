@@ -30,7 +30,7 @@ const startupMessage = `[38;5;1;48;5;16m [38;5;1;48;5;16m [38;5;1;48;5;16m [
 func logRequest(r *http.Request) {
 	uri := r.RequestURI
 	method := r.Method
-	fmt.Println("Got request!", method, uri)
+	fmt.Println("Got request my!", method, uri)
 }
 
 func main() {
